@@ -1,0 +1,152 @@
+
+
+
+/*header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #CFDCC3;
+}*/
+
+body {
+    background-color: #FAF9EB ;
+}
+
+#logo {
+    border-radius: 50%;
+    margin: 30px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 30px;
+    font-family: cinzel;
+    
+ 
+    
+}
+
+li {
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #DBBABD;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfdcc3;
+    
+    
+}
+
+#main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 30px;
+    
+
+
+   
+}
+
+#1 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+#grosseimage {
+    align-self: flex-end;
+    border-radius: 30px;
+    padding: 15px;
+    
+}
+
+#citation {
+    font-size: 30px;
+    font-family: cinzel;
+}
+
+#discover {
+    color: #DBBABD;
+    background-color: #ffff;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    
+}
+
+#discover:hover {
+    color: #cfdcc3;
+
+}
+
+
+hr {
+    size: 15px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: abeezee;
+}
+
+#qui {
+    text-align: center;
+    font-family: abeezee;
+}
+
+.avis {
+    display: flex;
+    align-items: center;
+    justify-items: space-around;
+    font-family: abeezee;
+    margin : 30px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+pavis {
+    text-size-adjust: 30px;
+    margin: 10px;
+}
+#avis2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imgavis {
+    border-radius: 30px;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DBBABD;
+    padding: 40px;
+    font-family: cinzel;
+
+}
+

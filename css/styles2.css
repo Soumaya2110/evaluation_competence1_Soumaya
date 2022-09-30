@@ -1,0 +1,192 @@
+/*header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #CFDCC3;
+}*/
+
+body {
+   
+    background-color: #FAF9EB ;
+}
+
+#logo {
+    border-radius: 50%;
+    margin: 30px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 30px;
+    font-family: cinzel;
+    
+ 
+    
+}
+
+li {
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #DBBABD;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfdcc3;
+    
+    
+}
+
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: cinzel;
+}
+
+td {
+   border: 1px solid black ;
+   width: 200px;
+   height: 80px;
+   padding: 30px;
+}
+
+/*th {
+    
+    padding: 10px;
+}*/
+
+td:hover {
+    color: #cfdcc3;
+}
+
+th:hover {
+    color: #DBBABD;
+}
+
+main {
+    display: flex;
+    
+}
+
+/*.bibli{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+                "l1 l2 l3"
+                "l4 l5 l6";
+}
+
+
+.livres1 {
+    margin: 10px;
+    grid-area: l1;
+}
+.livres2 {
+    margin: 10px;
+    grid-area: l2;
+}
+.livres3 {
+    margin: 10px;
+    grid-area: l3;
+}
+.livres4 {
+    margin: 10px;
+    grid-area: l4;
+}
+.livres5 {
+    margin: 10px;
+    grid-area: l5;
+}
+.livres6 {
+    margin: 10px;
+    grid-area: l6;
+}*/
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    font-family: abeezee;
+
+}
+
+.price {
+    background-color: white;
+    color: black;
+    width: 100px;
+    border: 1px solid #DBBABD;
+    border-radius: 8px;
+}
+
+.price:hover {
+    color: #839281;
+}
+
+.couverture {
+    box-shadow: 8px 3px 3px grey;
+}
+
+#bibli1 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+   
+
+}
+
+#bibli2 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    
+    
+}
+
+.livres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+}
+
+#pub {
+    display: flex;
+    justify-content: center;
+    background-color: #839281;
+    width: 300px;
+    height: 900px;
+    margin: 20px;
+}
+
+#imgpub {
+    display: flex;
+    align-items: center;
+    
+  
+}
+
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DBBABD;
+    padding: 40px;
+    font-family: cinzel;
+
+}
